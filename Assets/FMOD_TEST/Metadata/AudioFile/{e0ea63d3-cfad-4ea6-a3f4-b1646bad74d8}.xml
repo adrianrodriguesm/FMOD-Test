@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e0ea63d3-cfad-4ea6-a3f4-b1646bad74d8}">
+		<property name="assetPath">
+			<value>Audio/Ellen/Emotes/EllenEmotesEffortMedium01.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.32714583333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{defb87e8-7846-4acf-b14a-f042c502000a}</destination>
+		</relationship>
+	</object>
+</objects>
