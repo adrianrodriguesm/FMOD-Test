@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{a894dd67-87f0-4520-8ff2-2a9a26fbc4a9}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{033ac66d-312b-4593-b163-055a80a8e9ee}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{deddaf54-10ac-48f0-93c7-06edee23cc4f}">
 		<relationship name="masterBus">
@@ -91,7 +94,6 @@
 		</property>
 		<relationship name="modulators">
 			<destination>{5b1a3441-50ea-4a78-8fff-a2ab73b99592}</destination>
-			<destination>{daaa66e1-a5ac-46f1-82c1-5579db09d5fa}</destination>
 			<destination>{74db2f82-7edd-4d2c-bb9a-49694b7d286d}</destination>
 		</relationship>
 		<relationship name="sounds">
@@ -134,20 +136,12 @@
 			<value>5.20833302</value>
 		</property>
 	</object>
-	<object class="ADSRModulator" id="{daaa66e1-a5ac-46f1-82c1-5579db09d5fa}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="RandomizerModulator" id="{74db2f82-7edd-4d2c-bb9a-49694b7d286d}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>20</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{4944e818-2fe6-47aa-84a0-34355b6e9346}">
