@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d978692e-16f3-447c-8619-d1f11deb5316}">
+		<property name="assetPath">
+			<value>Audio/Ellen/Locomotion/EllenFootstep01.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.37874999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{defb87e8-7846-4acf-b14a-f042c502000a}</destination>
+		</relationship>
+	</object>
+</objects>

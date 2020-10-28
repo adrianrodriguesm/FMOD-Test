@@ -7,6 +7,8 @@ namespace Gamekit2D
     [RequireComponent(typeof(Damager))]
     public class Bullet : MonoBehaviour
     {
+        [FMODUnity.EventRef]
+        public string BulletSoundEventPath;
         public bool destroyWhenOutOfView = true;
         public bool spriteOriginallyFacesLeft;
         public bool isEnable = true;
@@ -35,7 +37,7 @@ namespace Gamekit2D
                 isEnable = false;
                 return;
             }
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Interacbles/Bullet", transform.position);
+            FMODUnity.RuntimeManager.PlayOneShot(BulletSoundEventPath, transform.position);
         }
 
         public void ReturnToPool ()
