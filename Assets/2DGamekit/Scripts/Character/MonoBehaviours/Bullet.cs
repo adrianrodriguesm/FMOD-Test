@@ -9,6 +9,7 @@ namespace Gamekit2D
     {
         public bool destroyWhenOutOfView = true;
         public bool spriteOriginallyFacesLeft;
+        public bool isEnable = true;
 
         [Tooltip("If -1 never auto destroy, otherwise bullet is return to pool when that time is reached")]
         public float timeBeforeAutodestruct = -1.0f;
@@ -29,6 +30,12 @@ namespace Gamekit2D
         {
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
             m_Timer = 0.0f;
+            if (isEnable)
+            {
+                isEnable = false;
+                return;
+            }
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Interacbles/Bullet", transform.position);
         }
 
         public void ReturnToPool ()

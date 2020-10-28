@@ -330,7 +330,8 @@ namespace Gamekit2D
             bullet.rigidbody2D.velocity = new Vector2(facingLeft ? -bulletSpeed : bulletSpeed, 0f);
             bullet.spriteRenderer.flipX = facingLeft ^ bullet.bullet.spriteOriginallyFacesLeft;
 
-            rangedAttackAudioPlayer.PlayRandomSound();
+            // rangedAttackAudioPlayer.PlayRandomSound();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Interacbles/Bullet", transform.position);
         }
 
         // Public functions - called mostly by StateMachineBehaviours in the character's Animator Controller but also by Events.

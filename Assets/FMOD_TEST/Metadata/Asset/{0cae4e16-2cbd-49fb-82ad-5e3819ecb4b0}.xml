@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{0cae4e16-2cbd-49fb-82ad-5e3819ecb4b0}">
+		<property name="assetPath">
+			<value>Audio/Ellen/Attacks/Ranged/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{defb87e8-7846-4acf-b14a-f042c502000a}</destination>
+		</relationship>
+	</object>
+</objects>
