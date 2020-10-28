@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Melee
   guid: d028e1f54d6cc6459437ca3a623fad34
   Banks:
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Hurt
   guid: 6706841c91a5694a9d3dc44d50233880
   Banks:
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -82,6 +82,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5080746074864640062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD_TEST/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637394444236599820
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4028298528957201410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +139,7 @@ MonoBehaviour:
   lastModified: 637394440358337386
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3185108819478966212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,7 +155,7 @@ MonoBehaviour:
   Path: event:/SFX/Interacbles/Bullet
   guid: 833bd1bf595a764290d52d7ab26b0261
   Banks:
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -213,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 2696984397219192934}
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   EditorEvents:
   - {fileID: -8780880559988026484}
   - {fileID: -8805279344802698014}
@@ -221,10 +239,10 @@ MonoBehaviour:
   - {fileID: -3185108819478966212}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   StringsBanks:
   - {fileID: 2696984397219192934}
-  stringsBankWriteTime: 637394440358367729
+  stringsBankWriteTime: 637394444236629724
   cacheVersion: 3
 --- !u!114 &1359718774309488900
 MonoBehaviour:
@@ -241,7 +259,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Ranged
   guid: 339660f6499c004aaba69c35757def39
   Banks:
-  - {fileID: -3394213182934019144}
+  - {fileID: -5080746074864640062}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -281,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD_TEST/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637394440358367729
+  lastModified: 637394444236629724
   LoadResult: 0
   FileSizes:
   - Name: Desktop
