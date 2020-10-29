@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{83e5c041-9517-4089-bf9c-262dd892dd3b}">
+		<property name="name">
+			<value>FootstepsDuck</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4f777a7a-d96c-46c6-ad11-203758b0a689}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4b46b009-864f-40b5-9fdc-20e829b7943e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4b46b009-864f-40b5-9fdc-20e829b7943e}">
+		<property name="minimum">
+			<value>-30</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>50</value>
+		</property>
+	</object>
+</objects>

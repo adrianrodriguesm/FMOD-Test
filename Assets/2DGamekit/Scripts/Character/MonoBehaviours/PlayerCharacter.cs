@@ -68,7 +68,7 @@ namespace Gamekit2D
         protected Animator m_Animator;
         protected CapsuleCollider2D m_Capsule;
         protected Transform m_Transform;
-        protected Vector2 m_MoveVector;
+        public Vector2 m_MoveVector;
         protected List<Pushable> m_CurrentPushables = new List<Pushable>(4);
         protected Pushable m_CurrentPushable;
         protected float m_TanHurtJumpAngle;

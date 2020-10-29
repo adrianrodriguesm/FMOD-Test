@@ -1,31 +1,69 @@
-﻿using System.Collections;
+﻿using Gamekit2D;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FmodPlayer : MonoBehaviour
 {
-    public LayerMask layer;
-    float distance = 0.1f;
+    public LayerMask layerGround;
+
+    PlayerCharacter player;
+
+    /// Footsteps
+    float distance = 0.05f;
     float Material;
-    void PlayOneShotEvent(string path)
+    FMOD.Studio.EventInstance Footsteps;
+
+    /// Jump and Fall
+    FMOD.Studio.EventInstance Landing;
+    bool wasGrounded = true;
+
+    private void Start()
     {
-        FMODUnity.RuntimeManager.PlayOneShot(path, transform.position);
+        player = GetComponent<PlayerCharacter>();
+        Footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Ellen/Ellen_Footsteps");
+        Landing = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Ellen/Ellen_Land");
     }
 
-    /*
+
+
     private void FixedUpdate()
     {
-        MaterialCheck();
-        Debug.DrawRay(transform.position, Vector2.down * distance, Color.blue);
-    }*/
+       
+        //Debug.DrawRay(transform.position, Vector2.down * distance, Color.blue);
+
+        ///Fall sound
+        PlayerLanded();
+        wasGrounded = IsGrounded();
+     
+
+    }
+
+    void PlayerLanded()
+    {
+        if (IsGrounded() && !wasGrounded && player.m_MoveVector.y < 0)
+        {
+            
+            Landing.setParameterByName("Velocity", player.m_MoveVector.y);
+            Footsteps.setParameterByName("FootstepsDuck", player.m_MoveVector.y);
+            Landing.start();
+
+        }
+    }
+
+    RaycastHit2D IsGrounded()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.down, distance, layerGround);
+
+    }
 
     void MaterialCheck()
     {
         RaycastHit2D hit;
 
-        hit = Physics2D.Raycast(transform.position, Vector2.down, distance, layer);
+        hit = IsGrounded();
 
-        if (hit.collider)
+        if (hit)
         {
             switch (hit.collider.tag)
             {
@@ -43,12 +81,24 @@ public class FmodPlayer : MonoBehaviour
         }
     }
 
-    void PlayFootstepsSoundEvent(string path)
+    void PlayFootstepsSoundEvent()
+    {
+        
+        Footsteps.start();
+        
+    }
+
+    private void OnDestroy()
+    {
+        Footsteps.release();//Destroy the event created after he finish
+        Landing.release();
+
+    }
+
+    void PlayMeleeSoundEvent(string path)
     {
         MaterialCheck();
-        FMOD.Studio.EventInstance Footsteps = FMODUnity.RuntimeManager.CreateInstance(path);
         Footsteps.setParameterByName("Material", Material);
-        Footsteps.start();
-        Footsteps.release();//Destroy the event created after he finish
+        FMODUnity.RuntimeManager.PlayOneShot(path, transform.position);
     }
 }

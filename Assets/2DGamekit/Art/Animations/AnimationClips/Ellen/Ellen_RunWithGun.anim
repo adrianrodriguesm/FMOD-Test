@@ -966,8 +966,8 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.06666667
-    functionName: PlayOneShotEvent
-    data: event:/SFX/Ellen/Ellen_Footsteps
+    functionName: PlayFootstepsSoundEvent
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
