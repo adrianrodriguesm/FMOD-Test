@@ -6,13 +6,19 @@ using UnityEngine;
 public class FmodPlayer : MonoBehaviour
 {
     public LayerMask layerGround;
+    [FMODUnity.EventRef]
+    public string footstepsPath;
+    [FMODUnity.EventRef]
+    public string fallPath;
 
     PlayerCharacter player;
 
     /// Footsteps
+
     float distance = 0.05f;
     float Material;
     FMOD.Studio.EventInstance Footsteps;
+   
 
     /// Jump and Fall
     FMOD.Studio.EventInstance Landing;
@@ -21,8 +27,8 @@ public class FmodPlayer : MonoBehaviour
     private void Start()
     {
         player = GetComponent<PlayerCharacter>();
-        Footsteps = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Ellen/Ellen_Footsteps");
-        Landing = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Ellen/Ellen_Land");
+        Footsteps = FMODUnity.RuntimeManager.CreateInstance(footstepsPath);
+        Landing = FMODUnity.RuntimeManager.CreateInstance(fallPath);
     }
 
 

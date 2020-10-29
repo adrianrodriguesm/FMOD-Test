@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_9;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_9;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>2019.4.9f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -203,6 +203,7 @@
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoScriptPlayableTrack.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\Scripts\FmodPlayer.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\FMOD_TEST\Metadata\EncodingSetting\{6877e1fb-b7ab-40d9-988e-691309e15bab}.xml" />
@@ -212,6 +213,8 @@
     <None Include="Assets\FMOD_TEST\Metadata\BankFolder\{71938e4d-dcd2-4b04-9d9a-15f2499e1b27}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Tags.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\UnityStandardParticles.cginc" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{94abe529-d393-4acd-ad7e-b74761466fb7}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{59865202-7723-4c5b-a67c-7f9b5ef45b6c}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{5c62653c-a34a-4a08-bb33-9e0f7e33029e}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\FrostedGlass.shader" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -219,12 +222,18 @@
     <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedSprite-Animated.shader" />
     <None Include="Assets\FMOD_TEST\Metadata\Master.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Asset\{8d253d91-e2da-482b-b24f-03428973d99c}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{f70e7d4e-5cf7-4312-b331-5998e73d3ec8}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{d795ca74-349e-4928-8a5d-ffa851f6813b}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedSprite.shader" />
     <None Include="Assets\FMOD_TEST\Metadata\Return\{d63f742e-7639-40fb-bb4e-117ee0a103a1}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{14cd02bb-e2ef-4987-a314-8e5c2d9b59e6}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\FMOD_TEST\Metadata\ParameterPresetFolder\{4f777a7a-d96c-46c6-ad11-203758b0a689}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{36522fa4-6e85-4a3a-98bf-ae4a44d7c117}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Asset\{142951e8-af62-4b05-bbbc-b20c5b79fb37}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\EventFolder\{0736573c-4347-4375-8de1-8aca6366fd99}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Sprites\EmojiOne_License.txt" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{1f26a019-3d28-4634-be31-a5a9a70c48c3}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Fonts\Rajdhani\RajdhaniFontLicense.txt" />
     <None Include="Assets\2DGamekit\2DGameKit_Third-PartyNotice.txt" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedTile.shader" />
@@ -233,29 +242,54 @@
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\FMOD_TEST\Metadata\Bank\{033ac66d-312b-4593-b163-055a80a8e9ee}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\FMOD_TEST\Metadata\ParameterPreset\{ed212e78-ce22-406c-9930-843c5ec34566}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{968b3a77-655a-4844-85b3-6b9deeb0fe03}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{030d5b55-4fe4-4362-9ee4-6fc4057438d8}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\NormalMappedTileAnimated.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{f5a74762-0e4a-4417-a6a6-e89428986f50}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\Water.shader" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{fdfbd1ea-63b2-4789-96d9-b42d493fea5c}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Asset\{c6a480f2-8d57-477e-8154-88be6953cfce}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\FMOD_TEST\Metadata\ParameterPreset\{faf5b476-1867-4523-97ab-76a3081e4806}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Asset\{a4259972-84a7-411b-8227-1984326933f0}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{1c840667-a591-4a69-9d3d-c44d50233880}.xml" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\Shield.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\Asset\{0cae4e16-2cbd-49fb-82ad-5e3819ecb4b0}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\EffectPresetFolder\{e719534c-9839-4ab3-a377-c6e2ff8e102a}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{f5e128d0-6c4d-45c6-9437-ca3a623fad34}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{bfd13b83-5a59-4276-90d5-2d7ab26b0261}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{aeb6c343-9180-463b-9921-2b231117f01d}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\2DGamekit\Utilities\Shaders\Particle Standard Unlit.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{0591992d-3e11-4b21-8995-b6ea5c7bc7a9}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\SnapshotGroup\{48fc13b5-2710-4497-a661-4b05f8248dfa}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{fe46cf35-2553-41ba-893b-a6648ff3c93f}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\EventFolder\{0b894a44-5346-43ae-b7af-5628b3a30bba}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Asset\{1538bfda-1ec7-4a6b-804f-7d33abdfc49b}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\EventFolder\{5e536c37-b225-4e1b-a72e-753c12120cdf}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\EventFolder\{45cb8361-6b8d-43d3-a878-aa856cebfe80}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Workspace.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\ParameterPreset\{83e5c041-9517-4089-bf9c-262dd892dd3b}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{7b29f748-6f05-4f61-bfc9-21151f091fc0}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{670936c5-20c0-4f71-ba92-91573d94a7ba}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Asset\{defb87e8-7846-4acf-b14a-f042c502000a}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{d978692e-16f3-447c-8619-d1f11deb5316}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{eb830cc5-eea9-4c0e-836b-2e77f0082868}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{c7c709bd-42d8-4060-a995-a77f20778f3b}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{e0ea63d3-cfad-4ea6-a3f4-b1646bad74d8}.xml" />
     <None Include="Assets\FMOD_TEST\Metadata\Platform\{36aa38d4-2566-4f5d-8dc6-307e0380c395}.xml" />
+    <None Include="Assets\FMOD_TEST\Metadata\Event\{f6609633-9c49-4a00-aba6-9c35757def39}.xml" />
     <None Include="Assets\2DGamekit\Utilities\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\FMOD_TEST\Metadata\AudioFile\{2ed07e5d-b915-4370-91d7-09a4f2212370}.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

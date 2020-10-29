@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Melee
   guid: d028e1f54d6cc6459437ca3a623fad34
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -38,7 +38,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Hurt
   guid: 6706841c91a5694a9d3dc44d50233880
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -99,6 +99,23 @@ MonoBehaviour:
   Max: 0
   Default: 0
   Exists: 0
+--- !u!114 &-7878801794693614050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Land/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: -30
+  Max: 0
+  Default: 0
+  Exists: 0
 --- !u!114 &-7048254906096400090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,13 +166,13 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Footsteps
   guid: 555b0d03e44f62439ee46fc4057438d8
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -4864033640361990795}
-  - {fileID: -2702719165166909328}
+  - {fileID: 8728340420983158628}
+  - {fileID: 9011764085464217649}
   MinDistance: 0
   MaxDistance: 0
   Length: 405
@@ -194,6 +211,23 @@ MonoBehaviour:
   Max: 2
   Default: 1
   Exists: 0
+--- !u!114 &-5700102789819478711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Footsteps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 1
+  Max: 2
+  Default: 1
+  Exists: 0
 --- !u!114 &-5570812535946079657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +245,23 @@ MonoBehaviour:
   Max: 0
   Default: 0
   Exists: 0
+--- !u!114 &-5182285504918384899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Land/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: -30
+  Max: 0
+  Default: 0
+  Exists: 1
 --- !u!114 &-5080746074864640062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +277,24 @@ MonoBehaviour:
   Path: Assets/FMOD_TEST/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637394444236599820
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5067019168587636450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD_TEST/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637395697656762849
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -245,7 +314,7 @@ MonoBehaviour:
   Min: 1
   Max: 2
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4028298528957201410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +405,7 @@ MonoBehaviour:
   Path: event:/SFX/Interacbles/Bullet
   guid: 833bd1bf595a764290d52d7ab26b0261
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -395,7 +464,7 @@ MonoBehaviour:
   Min: -30
   Max: 0
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2084953262865270777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,7 +517,7 @@ MonoBehaviour:
   lastModified: 637395304033352161
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1093422077926589461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +552,7 @@ MonoBehaviour:
   Min: -30
   Max: 0
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-565018378200240862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 2696984397219192934}
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   EditorEvents:
   - {fileID: -8780880559988026484}
   - {fileID: -8805279344802698014}
@@ -579,11 +648,29 @@ MonoBehaviour:
   - {fileID: 7084598789811157271}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   StringsBanks:
   - {fileID: 2696984397219192934}
-  stringsBankWriteTime: 637395304033392056
+  stringsBankWriteTime: 637395700432428199
   cacheVersion: 3
+--- !u!114 &419715095324015693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD_TEST/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637395700432378438
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1359718774309488900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,7 +686,7 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Ranged
   guid: 339660f6499c004aaba69c35757def39
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -673,7 +760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD_TEST/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637395304033392056
+  lastModified: 637395700432428199
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -730,6 +817,23 @@ MonoBehaviour:
   Min: 1
   Max: 2
   Default: 1
+  Exists: 0
+--- !u!114 &3414514856004232331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Footsteps/FootstepsDuck
+  m_EditorClassIdentifier: 
+  Name: FootstepsDuck
+  Min: -30
+  Max: 0
+  Default: 0
   Exists: 0
 --- !u!114 &3717959722879773986
 MonoBehaviour:
@@ -868,12 +972,12 @@ MonoBehaviour:
   Path: event:/SFX/Ellen/Ellen_Land
   guid: 773a8b965a65444885b36b9deeb0fe03
   Banks:
-  - {fileID: -1293858022919783242}
+  - {fileID: 419715095324015693}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -984308168415061543}
+  - {fileID: -5182285504918384899}
   MinDistance: 0
   MaxDistance: 0
   Length: 350
@@ -929,6 +1033,23 @@ MonoBehaviour:
   Max: 2
   Default: 1
   Exists: 0
+--- !u!114 &8728340420983158628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Footsteps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 1
+  Max: 2
+  Default: 1
+  Exists: 1
 --- !u!114 &8761374436973039445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,3 +1067,20 @@ MonoBehaviour:
   Max: 0
   Default: 0
   Exists: 0
+--- !u!114 &9011764085464217649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ellen_Footsteps/FootstepsDuck
+  m_EditorClassIdentifier: 
+  Name: FootstepsDuck
+  Min: -30
+  Max: 0
+  Default: 0
+  Exists: 1

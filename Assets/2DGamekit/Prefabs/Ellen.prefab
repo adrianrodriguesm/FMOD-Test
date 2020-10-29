@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
   - component: {fileID: 114621962236214084}
-  - component: {fileID: 7841213967862558655}
+  - component: {fileID: 897652718421620762}
   m_Layer: 13
   m_Name: Ellen
   m_TagString: Untagged
@@ -415,6 +415,7 @@ MonoBehaviour:
   maxVerticalDeltaDampTime: 0.6
   verticalCameraOffsetDelay: 1
   spriteOriginallyFacesLeft: 0
+  m_MoveVector: {x: 0, y: 0}
 --- !u!114 &114774311958850474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,7 +653,7 @@ MonoBehaviour:
   dataSettings:
     dataTag: inventory
     persistenceType: 3
---- !u!114 &7841213967862558655
+--- !u!114 &897652718421620762
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -667,6 +668,8 @@ MonoBehaviour:
   layerGround:
     serializedVersion: 2
     m_Bits: 2147483648
+  footstepsPath: event:/SFX/Ellen/Ellen_Footsteps
+  fallPath: event:/SFX/Ellen/Ellen_Land
 --- !u!1 &1181578502863468
 GameObject:
   m_ObjectHideFlags: 0
